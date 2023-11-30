@@ -108,7 +108,9 @@ footer p {
 }
 
 
-
+p{
+    text-align: justify;
+}
 
 /*RESPONSIVE*/
 @media (min-width: 576px) {
