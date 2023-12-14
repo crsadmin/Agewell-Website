@@ -179,3 +179,33 @@ p {
 
 
 /*RESPONSIVE*/
+
+.goup{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 999999999;
+}
+
+.goup a{
+    background: #1876f4cc;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 6px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
