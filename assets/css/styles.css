@@ -1,28 +1,28 @@
 @font-face {
-    font-family: 'kollektifbold';
-    src: url('../fonts/kollektif-bold-webfont.woff2') format('woff2'),
-        url('../fonts/kollektif-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "kollektifbold";
+  src: url("../fonts/kollektif-bold-webfont.woff2") format("woff2"),
+    url("../fonts/kollektif-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-body {}
+body {
+}
 
 a {
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 a:hover {
-    opacity: 0.5
+  opacity: 0.5;
 }
 
 img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* General */
@@ -32,184 +32,186 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "kollektifbold", sans-serif;
+  font-family: "kollektifbold", sans-serif;
 }
 
 /* General */
 /* Navigation */
 .menu-container {
-    background-color: #0344a4;
+  background-color: #0344a4;
 }
 
 .navbar-expand-lg .navbar-collapse,
 .bg-body-tertiary {
-    justify-content: center;
-    background-color: #0344a4 !important;
+  justify-content: center;
+  background-color: #0344a4 !important;
 }
 
 .navbar-expand-lg .navbar-collapse li a {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 /* Navigation */
 
 /* Footer */
 footer p {
-    padding: 2rem;
-    font-size: .8rem;
-    text-align: center;
-    color: #9b9b9b
+  padding: 2rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #9b9b9b;
 }
 
 footer.container img {
-    border-radius: 0;
-    width: 30%;
-    margin: 0 auto;
-    margin-bottom: 2rem;
+  border-radius: 0;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
 /* Footer */
 
 .custom-shape-divider-top-1701193454 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-top-1701193454 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 208px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 208px;
 }
 
 .custom-shape-divider-top-1701193454 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 #custom-cards .col {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #custom-cards .col span {
-    font-size: .8rem;
-    text-align: center;
-    font-weight: bold;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 #custom-cards img {
-    max-width: 120px;
+  max-width: 120px;
 }
 
 #erasmus img {
-    width: 100%;
-    border-radius: 0;
-    margin-bottom: 20px;
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 20px;
 }
-
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
-
 
 #agewllpro-background,
 #agewell-background {
-    background-color: #ff8211;
-    background-image: url(../img/personal-trainer.png);
-    background-size: contain;
-    width: 100%;
-    height: 800px;
-    border-radius: 10px;
-    border-top-right-radius: 40rem;
-    border-bottom-left-radius: 60rem;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 180% 0;
-    margin-bottom:1rem;
-
+  background-color: #ff8211;
+  background-image: url(../img/personal-trainer.png);
+  background-size: contain;
+  width: 100%;
+  height: 800px;
+  border-radius: 10px;
+  border-top-right-radius: 40rem;
+  border-bottom-left-radius: 60rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 180% 0;
+  margin-bottom: 1rem;
 }
 
 #agewell-background {
-    background-image: url(../img/couple.jpg);
-    background-size: contain;
-    width: 100%;
-    height: 800px;
-    border-radius: 10px;
-    border-bottom-right-radius: 20rem;
-    border-top-left-radius: 20rem;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: left;
-    margin-bottom:1rem;
+  background-image: url(../img/couple.jpg);
+  background-size: contain;
+  width: 100%;
+  height: 800px;
+  border-radius: 10px;
+  border-bottom-right-radius: 20rem;
+  border-top-left-radius: 20rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 1rem;
 }
-
 
 /*RESPONSIVE*/
 @media (min-width: 576px) {
-
-    .image-background {
-        background-position: center;
-        background-size: cover
-    }
+  .image-background {
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 @media (max-width: 575.98px) {
-    footer.container img {
-        border-radius: 0;
-        width: 100%;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-    }
+  footer.container img {
+    border-radius: 0;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
 
-
-    #agewllpro-background,#agewell-background  {
-        background-size: cover;
-        background-position: center;
-    }
-
+  #agewllpro-background,
+  #agewell-background {
+    background-size: cover;
+    background-position: center;
+  }
 }
-
 
 /*RESPONSIVE*/
 
-.goup{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    z-index: 999999999;
+.goup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 999999999;
 }
 
-.goup a{
-    background: #0344a4;
-    padding: 1rem;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+.goup a {
+  background: #0344a4;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 .arrow {
-    border: solid rgb(255, 255, 255);
-    border-width: 0 6px 6px 0;
-    display: inline-block;
-    padding: 6px;
-  }
+  border: solid rgb(255, 255, 255);
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 6px;
+}
 
-  .up {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-  }
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
 
-  .btn.btn-primary.btn-lg{
-    background-color: #0344a4!important;
-  }
+.btn.btn-primary.btn-lg {
+  background-color: #0344a4 !important;
+}
+
+.navbar-nav .nav-link.special-button {
+  background: #2d78e8;
+  border-radius: 4px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 1rem;
+  text-align: center;
+}
