@@ -148,31 +148,6 @@ p {
   margin-bottom: 1rem;
 }
 
-/*RESPONSIVE*/
-@media (min-width: 576px) {
-  .image-background {
-    background-position: center;
-    background-size: cover;
-  }
-}
-
-@media (max-width: 575.98px) {
-  footer.container img {
-    border-radius: 0;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-  }
-
-  #agewllpro-background,
-  #agewell-background {
-    background-size: cover!important;
-    background-position: center!important;
-  }
-}
-
-/*RESPONSIVE*/
-
 .goup {
   position: fixed;
   bottom: 20px;
@@ -215,3 +190,32 @@ p {
   margin: 0 1rem;
   text-align: center;
 }
+
+/*RESPONSIVE*/
+@media (min-width: 576px) {
+  .image-background {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 575.98px) {
+  footer.container img {
+    border-radius: 0;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  #agewllpro-background,
+  #agewell-background {
+    background-size: cover!important;
+    background-position: center!important;
+  }
+
+  .navbar-nav .nav-link.special-button{
+    margin:10px 0;
+  }
+}
+
+/*RESPONSIVE*/
