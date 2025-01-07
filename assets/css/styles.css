@@ -209,8 +209,10 @@ p {
 
   #agewllpro-background,
   #agewell-background {
-    background-size: cover!important;
-    background-position: center!important;
+    background-image: url(../img/personal-trainer-1x.jpg);
+    background-size: auto;
+    background-position: top;
+    height: 500px;
   }
 
   .navbar-nav .nav-link.special-button{
